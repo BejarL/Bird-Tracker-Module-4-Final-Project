@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "concurrently \"cd backend && nodemon app.js\" \"cd client && npm run dev\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1"
+  }
+}

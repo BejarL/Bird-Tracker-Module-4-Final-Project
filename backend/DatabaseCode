@@ -1,0 +1,6 @@
+CREATE TABLE birds (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    species VARCHAR(255) NOT NULL,
+    seen_at DATE NOT NULL,
+    location VARCHAR(255) NOT NULL
+);
